@@ -59,7 +59,7 @@ def make_it_glow(ip_addr):
     bulb.turn_on()
     bulb.set_brightness(character.get('brightness'))
     color = character.get('color').split(',')
-    bulb.set_rgb(color[0], color[1], color[2])
+    bulb.set_rgb(int(color[0]), int(color[1]), int(color[2]))
 
 
 def turn_it_off(ip_addr):

@@ -1,0 +1,9 @@
+Click==7.0
+enum-compat==0.0.2
+Flask==1.0.2
+future==0.17.1
+itsdangerous==1.1.0
+Jinja2==2.10
+MarkupSafe==1.1.0
+Werkzeug==0.14.1
+yeelight==0.4.3
